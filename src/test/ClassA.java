@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class ClassA {
 	public int salary;
 	public String Name;
-	String Orgname;
+	protected String Orgname;
+	
+	public ClassA() {
+		System.out.println("Inside constructor");
+	}
 	
 	public void Get() {
 		Scanner scanner = new Scanner(System.in);

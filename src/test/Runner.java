@@ -10,22 +10,28 @@ public class Runner {
 		int j;
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter the total Number of Enployee:");
+		ClassA Emp = new ClassA();
+		ClassB obj = new ClassB();
+		ClassC obj1 = new ClassC();
+		
+		obj1.Name = "Test";
+		obj1.Display();
+		
+		obj.Display();
+		
+		obj.show();
+	
         i = scanner.nextInt();
         j=i;
         		
         while(i > 0)
         {
 		i--;
-		ClassA Emp = new ClassA();
+		
 		Emp.Get();
+		Emp.Display();
 		}
-        while(j > 0)
-        {
-        	j--;
         
-        ClassA Emp = new ClassA();
-        Emp.Display();
-        }
 	}
 
 }
