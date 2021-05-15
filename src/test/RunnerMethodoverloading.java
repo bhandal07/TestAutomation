@@ -17,9 +17,19 @@ public class RunnerMethodoverloading {
 		
 		obj2.disp();
 		
-		abstractchild obj3 = new abstractchild();
-		obj3.method2();
-		obj3.method1();
+		//abstractchild obj3 = new abstractchild();
+		//obj3.method2();
+	//	obj3.method1();
+		
+		interfacechild obj4 = new interfacechild();
+		obj4.method1();
+		obj4.method2();
+		
+		Encapsule obj5  = new Encapsule();
+		obj5.setSalary(1000);
+		System.out.println(obj5.getSalary());
+		System.out.println(obj5.getName());
+		
 		
 		
 		
